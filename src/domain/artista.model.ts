@@ -1,8 +1,12 @@
-export /**
- * Artista
- */
 class Artista {
-    constructor(parameters) {
-        
+    public nombre: string;
+    public edad: number;
+
+    constructor() {
+    
+    }
+
+     public presentarse() { 
+        alert("hola soy: " + this.nombre);
     }
 }

@@ -1,8 +1,9 @@
-"use strict";
 var Artista = (function () {
-    function Artista(parameters) {
+    function Artista() {
     }
+    Artista.prototype.presentarse = function () {
+        alert("hola soy: " + this.nombre);
+    };
     return Artista;
 }());
-exports.Artista = Artista;
 //# sourceMappingURL=artista.model.js.map
