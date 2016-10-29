@@ -2,7 +2,7 @@ var Artista = (function () {
     function Artista() {
     }
     Artista.prototype.presentarse = function () {
-        alert("hola soy: " + this.nombre);
+        alert("Hola soy: " + this.nombre);
     };
     return Artista;
 }());

@@ -1,12 +1,12 @@
-class Artista {
+class Artista 
+{
     public nombre: string;
-    public edad: number;
+    private edad: number;
 
-    constructor() {
-    
-    }
+    constructor() { }
 
-     public presentarse() { 
-        alert("hola soy: " + this.nombre);
+    public presentarse()
+    {
+        alert("Hola soy: " + this.nombre);
     }
 }

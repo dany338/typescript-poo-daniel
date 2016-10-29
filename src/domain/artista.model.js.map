@@ -1,1 +1,1 @@
-{"version":3,"file":"artista.model.js","sourceRoot":"","sources":["artista.model.ts"],"names":[],"mappings":"AAAA;IAII;IAEA,CAAC;IAEO,6BAAW,GAAlB;QACG,KAAK,CAAC,YAAY,GAAG,IAAI,CAAC,MAAM,CAAC,CAAC;IACtC,CAAC;IACL,cAAC;AAAD,CAAC,AAXD,IAWC"}
+{"version":3,"file":"artista.model.js","sourceRoot":"","sources":["artista.model.ts"],"names":[],"mappings":"AAAA;IAKI;IAAgB,CAAC;IAEV,6BAAW,GAAlB;QAEI,KAAK,CAAC,YAAY,GAAG,IAAI,CAAC,MAAM,CAAC,CAAC;IACtC,CAAC;IACL,cAAC;AAAD,CAAC,AAXD,IAWC"}

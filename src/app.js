@@ -1,11 +1,15 @@
 var App = (function () {
     function App() {
+        this.albumList = new Array();
     }
-    App.prototype.main = function () {
-        var artista1 = new Artista();
-        artista1.presentarse();
+    App.prototype.agregarAlbum = function () {
+        var inputAlbumNombre = document.getElementById("album_nombre");
+        var inputAlbumFechaLanzamiento = document.getElementById("album_fechaLanzamiento");
+        var nombreAlbum = inputAlbumNombre.value;
+        var fechaLanzamiento = new Date(inputAlbumFechaLanzamiento.value);
+        var nuevoAlbum = new Album(nombreAlbum, fechaLanzamiento);
     };
     return App;
 }());
-alert("app se ha cargado");
+var app = new App();
 //# sourceMappingURL=app.js.map
